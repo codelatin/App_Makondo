@@ -1,0 +1,223 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-04-07T02:09:30.806Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Viva la gente",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-04-07T03:35:49.431Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Aleluya",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-04-07T03:38:27.044Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Aleluya",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Archivo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-04-07T12:54:21.436Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Viva la gente",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagen\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-04-07T12:57:30.174Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Viva la gente 2025",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-04-14T15:18:51.538Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Entre tus manos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-04-14T15:33:42.701Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Viva la gente 2025",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Compositor\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-04-16T13:38:39.350Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Viva la gente 2025",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Porcentaje derecho autoral\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2025-04-16T13:41:43.426Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Entre tus manos",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Porcentaje derecho autoral\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2025-04-16T13:41:51.196Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Aleluya",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Porcentaje derecho autoral\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2025-04-16T13:41:57.111Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Viva la gente 2025",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Porcentaje derecho autoral\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2025-04-16T14:52:47.414Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Entre tus manos 2025 amadas",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$KNJPBKp7jrv0wDLGwJypdi$W5u1TSXvqssh6g05z62GFB7MvN/q2VxnSor7PrtfVlk=",
+      "last_login": "2025-04-16T14:52:26.791Z",
+      "is_superuser": true,
+      "username": "makondo",
+      "first_name": "",
+      "last_name": "",
+      "email": "makondoentretenimiento@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-04-07T02:05:53.405Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "aqo1plnbnz7k1vc46iezve092wuu710g",
+    "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUUtTkzCyN4zRHZsSAE1UtNOiLtDpQ6w_vfef5lE61LS2nROo5iz6c3hd2PKD502IHeabtXmOi3zyHZT7E6bHaro87K7fweFWvnWik6CEIA_YY4hYOcdHlE8OgfcBWGvGJQBGRxxdAxRJVIfgK6R2Lw_yYM3uQ:1u547m:epGtYOxqEHQSg64WyDsvzVNpHLE2zcwbHjweEHniN0k",
+      "expire_date": "2025-04-30T14:52:26.804Z"
+    }
+  },
+  {
+    "model": "audios.audio",
+    "pk": 1,
+    "fields": {
+      "titulo": "Viva la gente 2025",
+      "interprete": "Los niños del sol",
+      "compositor": "no aplica",
+      "genero": "Infantil",
+      "porcentaje_derecho_autoral": "0%",
+      "imagen": "imagenes_audios/gente.jpg",
+      "archivo": "audios/audio-club-amapiano-319840.mp3"
+    }
+  },
+  {
+    "model": "audios.audio",
+    "pk": 2,
+    "fields": {
+      "titulo": "Aleluya",
+      "interprete": "Los niños del sol",
+      "compositor": "Leonardo Cohen",
+      "genero": "Infantil Espiritual",
+      "porcentaje_derecho_autoral": "0%",
+      "imagen": "imagenes_audios/ale.jpg",
+      "archivo": "audios/alan-amjad-tiktok-music-audio-167245.mp3"
+    }
+  },
+  {
+    "model": "audios.audio",
+    "pk": 3,
+    "fields": {
+      "titulo": "Entre tus manos 2025 amadas",
+      "interprete": "Los niños del sol",
+      "compositor": "Abraham Velásquez",
+      "genero": "Infantil",
+      "porcentaje_derecho_autoral": "0%",
+      "imagen": "imagenes_audios/Flux_Schnell_a_surreal_and_vibrant_cinematic_photo_of_A_stylis_0.jpg",
+      "archivo": "audios/audio-club-amapiano-319840_1.mp3"
+    }
+  }
+]

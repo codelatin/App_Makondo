@@ -1,0 +1,70 @@
+# Entornos virtuales
+venv/
+env/
+virtualenv/
+ENV/
+
+# Archivos de base de datos local (SQLite)
+db.sqlite3
+*.sqlite3
+
+# Variables de entorno
+.env
+.env.*
+*.env.*
+*.env
+
+# Carpeta de archivos estáticos compilados (usada por collectstatic)
+staticfiles/
+
+# Carpetas de archivos multimedia
+media/
+*.log
+logs/
+cache/
+sessions/
+
+# Archivos generados por Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.dblite
+
+# Archivos de construcción y distribución
+build/
+dist/
+*.egg-info
+eggs/
+develop-eggs/
+bin/
+parts/
+sdist/
+wheels/
+
+# Configuración sensible de Django
+.env.yaml
+.env.*.yaml
+*.ini
+
+# Backups de base de datos
+*.dump
+*.sql
+*.bak
+
+# Archivos temporales y de editor
+*.swp
+*.swo
+*.swn
+*~
+.vscode/
+.idea/
+*.DS_Store
+*.tmp
+
+# Archivos del sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk

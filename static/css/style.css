@@ -1,0 +1,162 @@
+/* ========== MODO CLARO ========== */
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ========== MODO OSCURO ========== */
+  body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode .audio-item {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+  }
+  
+  body.dark-mode .audio-details h5,
+  body.dark-mode .audio-meta p {
+    color: #ffffff !important;
+  }
+  
+  body.dark-mode .btn-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode .sticky-header {
+    background-color: #222;
+  }
+  
+  body.dark-mode .audio-player {
+    background-color: #2b2b2b;
+  }
+  
+  body.dark-mode .btn-whatsapp-custom {
+    background-color: #25d366;
+    color: #fff !important;
+  }
+  
+  /* ========== BOTÓN WHATSAPP FLOTANTE ========== */
+  .floating-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    z-index: 999;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .floating-whatsapp img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Ocultar texto en móviles */
+  @media (max-width: 576px) {
+    .floating-whatsapp span {
+      display: none;
+    }
+  }
+  
+  /* ========== AUDIO ITEMS ========== */
+  .audio-item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .audio-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  }
+  
+  .audio-thumb {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .audio-thumb:hover {
+    transform: scale(1.05);
+  }
+  
+  .audio-details {
+    flex-grow: 1;
+  }
+  
+  .audio-details h5 {
+    font-size: 1.1rem;
+    color: #222;
+  }
+  
+  .audio-meta p {
+    margin-bottom: 0.3rem;
+    color: #555;
+  }
+  
+  .audio-player {
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+  }
+  
+  /* ========== RESPONSIVE AUDIO ITEM ========== */
+  @media (max-width: 768px) {
+    .audio-item {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .audio-thumb {
+      width: 100%;
+      height: auto;
+    }
+  
+    .audio-details {
+      width: 100%;
+    }
+  
+    .audio-details h5 {
+      text-align: center;
+    }
+  
+    .audio-meta p {
+      text-align: center;
+    }
+  }
+  
