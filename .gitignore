@@ -2,6 +2,7 @@
 venv/
 env/
 virtualenv/
+app_makondo/ 
 ENV/
 
 # Archivos de base de datos local (SQLite)
