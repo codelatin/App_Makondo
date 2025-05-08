@@ -119,12 +119,29 @@
 
 
 -->
-<a href="https://wa.me/573106667194"
+<a href="https://wa.me/573106667194" 
    target="_blank"
-   class="btn btn-whatsapp-custom"
+   style="
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 0.5s ease-in-out;
+   "
    id="whatsapp-float">
-  <img src="{% static 'img/logo.png' %}" alt="WhatsApp" width="34" class="me-2">
-  <span class="d-none d-md-inline">Contáctanos por WhatsApp</span>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+        alt="WhatsApp" 
+        width="24" 
+        style="margin-right: 8px;">
+   <span style="font-weight: 500;">Contáctanos por WhatsApp</span>
 </a>
 
 
